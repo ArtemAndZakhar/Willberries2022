@@ -4,7 +4,6 @@ const cart = function () {
         cart = document.getElementById('modal-cart'),
         closeBtn = cart.querySelector('.modal-close');
 
-    // console.log(cart);
     cartBtn.addEventListener('click',() => {
         cart.style.display = 'flex';
     })
