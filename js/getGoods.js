@@ -34,7 +34,7 @@ getGoods = () => {
                 localStorage.setItem('goods', JSON.stringify(array));
                 console.log(window.location.href);
                 if (window.location.pathname !== '/goods.html') {
-                    window.location.href = 'Willberries2022/goods.html';
+                    window.location.href = '/goods.html';
                 } else {
                     renderGoods(array);
                 }
